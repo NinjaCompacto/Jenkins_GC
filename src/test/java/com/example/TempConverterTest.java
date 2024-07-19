@@ -4,8 +4,7 @@ import org.junit.jupiter.api.Test;
 public class TempConverterTest {
     @Test
     public void testFahrenheitToCelsius() {
-        // inserindo erro para apontar erro de build Cenário 2.
-        assertEquals(0, TempConverterERRO_PROPOSITAL.fahrenheitToCelsius(32));
+        assertEquals(0, TempConverter.fahrenheitToCelsius(32));
         assertEquals(100, TempConverter.fahrenheitToCelsius(212));
     }
 
